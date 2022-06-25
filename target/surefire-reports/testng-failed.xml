@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.cybertek.tests.Practices.day9HW.Test7">
+        <methods>
+          <include name="test7"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.Practices.day9HW.Test7 -->
+      <class name="com.cybertek.tests.Practices.day9HW.Test9_12">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testFrom9to12"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.Practices.day9HW.Test9_12 -->
+      <class name="com.cybertek.tests.day13_pom.NegativeLoginTest">
+        <methods>
+          <include name="wrongUsername"/>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="wrongPassword"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day13_pom.NegativeLoginTest -->
+      <class name="com.cybertek.tests.day15_review.verifyContactInfoTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="contactDetailsTest"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day15_review.verifyContactInfoTest -->
+      <class name="com.cybertek.tests.reviews.week7.HWTest">
+        <methods>
+          <include name="setUpEachCase"/>
+          <include name="verifyPageNumber"/>
+          <include name="tearDown"/>
+          <include name="verifyOptions"/>
+          <include name="verifyViewPerPage"/>
+          <include name="fullTearDown"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.reviews.week7.HWTest -->
+      <class name="com.cybertek.tests.Practices.day9HW.Test8">
+        <methods>
+          <include name="test8"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.Practices.day9HW.Test8 -->
+      <class name="com.cybertek.tests.day13_pom.PositiveLoginTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginAsStoreManager2"/>
+          <include name="loginAsStoreManager"/>
+          <include name="loginAsDriver"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day13_pom.PositiveLoginTest -->
+      <class name="com.cybertek.tests.day13_pom.PageSubtitleTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day13_pom.PageSubtitleTest -->
+      <class name="com.cybertek.tests.day8_typesOfElements2.SelectDropDownTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day8_typesOfElements2.SelectDropDownTest -->
+      <class name="com.cybertek.tests.day10_actions_js.ActionsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickwithJS"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day10_actions_js.ActionsTest -->
+      <class name="com.cybertek.tests.day9_popups_tabs_frames.iFrameTest">
+        <methods>
+          <include name="test1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day9_popups_tabs_frames.iFrameTest -->
+      <class name="com.cybertek.tests.Practices.day9HW.Test6">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Test6"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.Practices.day9HW.Test6 -->
+      <class name="com.cybertek.tests.reviews.week5.ScrollingTest">
+        <methods>
+          <include name="movetoElementTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="ScrollTestWithJSE"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.reviews.week5.ScrollingTest -->
+      <class name="com.cybertek.tests.reviews.week5.ActionsAndIframeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.reviews.week5.ActionsAndIframeTest -->
+      <class name="com.cybertek.tests.day13_pom.RepeatOptionsTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1"/>
+          <include name="tearDownTest"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day13_pom.RepeatOptionsTest -->
+      <class name="com.cybertek.tests.day16_ddf.DDFLoginTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day16_ddf.DDFLoginTest -->
+      <class name="com.cybertek.tests.Practices.day9HW.Tests1to5">
+        <methods>
+          <include name="setUp"/>
+          <include name="test5"/>
+          <include name="tearDown"/>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.Practices.day9HW.Tests1to5 -->
+      <class name="com.cybertek.tests.reviews.week5.AdidasTest">
+        <methods>
+          <include name="Test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.reviews.week5.AdidasTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
